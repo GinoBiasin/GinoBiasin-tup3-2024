@@ -1,0 +1,46 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "nav main";
+}
+
+.nav {
+    grid-area: nav;
+    text-align: center;
+    align-items: center;
+    background-color: yellow;
+    margin-top: 100px;
+}
+
+.main {
+    grid-area: main;
+    text-align: center;
+    align-items: center;
+    background-color: green;
+    margin-top: 100px;
+}
+
+header {
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    align-items: center;
+    background-color: gray;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    align-items: center;
+    background-color: gray;
+}
+
+ul {
+    list-style-type: none;
+}
