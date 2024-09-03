@@ -1,0 +1,137 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(71, 71, 71);
+    font-size: small;
+}
+
+.cabecera {
+    background-color: rgb(60, 66, 95);
+    color: white;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-areas: 
+    "profile presentacion";
+}
+
+.profile-picture {
+    grid-area: profile;
+    height: 200px;
+    width: 200px;
+    border-radius: 100em;
+    align-content: center;
+    text-align: center;
+    margin: 5%;
+}
+
+
+.presentacion {
+    grid-area: presentacion;
+    background-color: white;
+    margin: 2%;
+    color: rgb(92, 92, 92);
+    padding: 2%;
+    border-radius: 2em;
+    text-align: center;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.button-datos {
+    background-color: rgb(163, 163, 163);
+    padding: 1%;
+}
+
+.datos-personales {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 30px 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "personales personales"
+    "linkedin direccion"
+    "linkedin telefono"
+    "linkedin mail"
+    "linkedin nacimiento"
+    "linkedin nacionalidad";
+    gap: 5px;
+}
+
+.personales {
+    grid-area: personales;
+    background-color: green;
+    align-content: center;
+    border-radius: 10px;
+    padding-left: 5px;
+    color: white;
+}
+
+.linkedin {
+    grid-area: linkedin;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.telefono {
+    grid-area: telefono;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.direccion {
+    grid-area: direccion;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.mail {
+    grid-area: mail;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.nacimiento {
+    grid-area: nacimiento;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.nacionalidad {
+    grid-area: nacionalidad;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.contenido {
+    padding: 2em;
+}
+
+.date {
+    color: gray;
+    font-size: small;
+}
+
+h3 {
+    background-color: rgb(183, 176, 189);
+    padding: 2px;
+}
+
+.my-button {
+    padding: 10px 20px;
+    background-color: rgb(60, 66, 95);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

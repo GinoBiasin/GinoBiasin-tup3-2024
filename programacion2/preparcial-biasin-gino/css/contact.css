@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 10px;
+    gap: 15px;
+    border-radius: 5px;
+}
+
+.orden {
+    display: flex;
+    flex-direction: column;
+}
+
+.estilo {
+    height: 30px;
+    padding-left: 10px;
+}
+
+.enviar {
+    color: white;
+    background-color: rgb(18, 18, 126);
+    font-size: 15px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button {
+    background-color: rgb(103, 103, 255);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
